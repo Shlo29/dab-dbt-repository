@@ -21,7 +21,7 @@ stg_cc_stock AS (
     ,stock
     -- value
     ,price
-  FROM `raw_data_circle.raw_cc_stock` t
+  FROM `stg_cc_stock` t
 )
 
 
