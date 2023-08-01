@@ -6,5 +6,8 @@ models:
       ### PK ###
       - name: product_id
         tests:
-          - unique
+        - unique
+        - not_null
+      - name: qty_91
+        tests:
           - not_null
