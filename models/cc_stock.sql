@@ -1,3 +1,4 @@
+ SELECT
  ### Key ###
   CONCAT(model,"_",color,"_",IFNULL(size,"no-size")) AS product_id 
   ###########
