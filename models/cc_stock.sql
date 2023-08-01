@@ -3,7 +3,7 @@
   CONCAT(model,"_",color,"_",IFNULL(size,"no-size")) AS product_id 
   ###########
   ,model
-  ,color AS colors
+  ,color
   ,size
   -- category
   ,CASE
