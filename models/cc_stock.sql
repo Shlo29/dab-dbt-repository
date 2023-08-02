@@ -3,7 +3,7 @@ SELECT * FROM {{ ref('cc_sales_products') }}
   ),
 stg_cc_stock AS (
 SELECT * FROM {{ ref('stg_cc_stock')}}
-),
+)
 SELECT
   ### Key ###
   product_id 

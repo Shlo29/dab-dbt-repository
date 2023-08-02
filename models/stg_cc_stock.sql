@@ -16,4 +16,4 @@
     ,stock
     -- value
     ,price
-  FROM stg_cc_stock t
+  FROM `raw_data_circle.raw_cc_stock` t
